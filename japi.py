@@ -23,6 +23,7 @@ def main():
             response = 'The current price of {} is: {}\n'.format(user_input, getStockdata(user_input))
             print(response)
             outputFile.write(response)
+            print("Stock Quotes retrieved successfully!")
         else:
             raise SystemExit
 
